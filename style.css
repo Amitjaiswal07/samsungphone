@@ -35,10 +35,29 @@ font-family:Inter, -apple-system, Helvetica, Arial, sans-serif
 
 .button2{
     background-color: rgb(226, 105, 18);
-    padding: 20px 90px;
+    padding: 20px 80px;
     color: white;
     border: 0cap;
     border-radius: 3px;
+}
+
+.container3{
+    display: flex;
+}
+
+.container4{
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.container4 pre{
+    
+    color: rgba(100, 94, 94, 0.815);
+
 }
 
 
@@ -58,11 +77,75 @@ font-family:Inter, -apple-system, Helvetica, Arial, sans-serif
 
 
 
-
-
-
-
 .starbox{
-    
+    gap: 15px;
     display: flex;
+   
+}
+
+.starbox img{
+    height: 20px;
+    width: 75px;
+}
+
+.starbox b{
+    color: rgba(139, 146, 146, 0.986);
+}
+
+.starbox h4{
+    height: 18px;
+    width: 33px;
+    border-radius: 3px;
+    padding: 0px 2px;
+    padding-left: 6px;
+    color: white;
+    background-color: rgba(17, 160, 17, 0.973);
+}
+
+.container4 span{
+    color: rgba(17, 160, 17, 0.973);
+}
+
+.price{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.price h2{
+    font-weight:lighter;
+    
+
+}
+
+
+.price strike{ 
+    color: rgba(144, 151, 151, 0.993);
+   
+}
+
+.price p{
+    color: rgba(17, 160, 17, 0.973) ;
+}
+
+.Available{
+    color: rgba(54, 48, 48, 0.856);
+}
+
+.bankoffers span{
+    font-size: medium;
+    font-weight: bold;
+    color:rgba(7, 106, 219, 0.911)
+}
+
+.bankoffers img{
+    height: 20px;
+   
+}
+
+
+
+.firstoffer{
+    display: flex;
+    gap: 10px;
 }
